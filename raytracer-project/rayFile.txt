@@ -1,0 +1,17 @@
+# linijki zaczynajace się od: 
+# # - komentarz
+# OBJ - obiekt z pliku , skladnia: OBJ nazwa.obj posX posY posZ colR colG colB  SCALE
+# LIGHT - swiatlo, skladnia: LIGHT posX posY posZ Intense colR colG colB 
+# SPHERE - kula, skladnia: SPHERE cenX cenY cenZ radius colR colG colB boolPhong
+# TRIANGLE - trojkat, skladnia: TRIANGLE aX aY aZ bX bY bZ cX cY cZ colR colG colB
+# CAMERA- pozycja kamery, domyslnie  0,0,0; skladnia: CAMERA X Y Z;
+
+
+LIGHT 0 250 0 1 255 0 0
+LIGHT 500 250 0 1 0 0 255
+SPHERE 50 250 -10 50 255 255 255 1
+SPHERE 150 250 5 50 255 255 255 1
+SPHERE 250 250 20 50 255 255 255 1
+SPHERE 350 250 5 50 255 255 255 1
+SPHERE 450 250 -10 50 255 255 255 1
+CAMERA 0 0 0
